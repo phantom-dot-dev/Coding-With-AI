@@ -236,7 +236,3 @@ When tackling massive codebases or parallel engineering streams, a single contex
 ```
 
 ---
-
-To help you get started with Claude Code, here is an excellent visual walkthrough demonstrating its setup, file navigation, and native terminal execution capabilities:
-
-This video tutorial provides a practical look at setting up Claude Code and getting comfortable with its primary slash commands and terminal workflows.

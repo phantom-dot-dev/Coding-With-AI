@@ -1,4 +1,4 @@
-### Basic topics:
+### Basic topics (Antigravity CLI, Claude, Gemini/Deprecated):
 - Models Selection, Usages and Remaining tokens
 - Effort
 - Using Claude In VS Code

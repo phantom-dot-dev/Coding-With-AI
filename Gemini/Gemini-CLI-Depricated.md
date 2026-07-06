@@ -248,5 +248,3 @@ When dealing with massive scale, Gemini CLI shifts from a chatbot to an **Orches
 ```
 
 ---
-
-Which of these advanced patterns—like setting up an MCP server or writing a custom sub-agent—would you like to build first for your current project?
