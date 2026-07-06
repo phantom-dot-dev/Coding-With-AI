@@ -1,0 +1,16 @@
+### Basic topics:
+- Models Selection, Usages and Remaining tokens
+- Effort
+- Using Claude In VS Code
+- Shell Mode
+- Modes
+- Settings & Permissions
+- VS Code Extension
+- Context, Tokens & Clearing
+- Global Sessions
+- Claude.md File & /init
+- Plan Mode
+- Adding Feature Focused Workflow and keeping context and memory usage in control
+- Skills
+- MCPs
+- Sub-Agents
