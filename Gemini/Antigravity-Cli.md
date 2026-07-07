@@ -22,33 +22,13 @@ Welcome to the definitive guide for **Antigravity CLI** (`agy`). Replacing the d
 
 ---
 
-## 1. Installation & Authentication
+## 1. Antigravity cli Installation & Authentication:
 
-Antigravity CLI is distributed as a fast, compiled binary available across all major operating systems.
+mac - 
 
-### Installation Commands
+linux - 
 
-Run the installation script matching your environment:
-
-* **macOS & Linux (Bash):**
-```bash
-curl -fsSL https://antigravity.google/cli/install.sh | bash
-
-```
-
-
-* **Windows (PowerShell):**
-```powershell
-irm https://antigravity.google/cli/install.ps1 | iex
-
-```
-
-
-* **Windows (Command Prompt):**
-```cmd
-curl -fsSL https://antigravity.google/cli/install.cmd -o install.cmd && install.cmd && del install.cmd
-
-```
+termux -
 
 
 
@@ -81,6 +61,14 @@ Antigravity CLI boots into an interactive Terminal User Interface (TUI). You can
 > Explain how our local Express server handles error bubbles from asynchronous middleware.
 
 ```
+
+
+### Basic level 2 usages:
+- Ask about a certain file `/add file-or-directory-name` and then ask about it through `/mode plan`
+
+- check the plan result by ctrl+alt+click
+- accept or cancel `/cancel` the result
+- include some more notes (search Coding with ai browser conversation)
 
 ---
 
