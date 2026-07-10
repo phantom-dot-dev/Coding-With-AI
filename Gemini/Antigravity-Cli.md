@@ -18,11 +18,7 @@
 
 
 
-Welcome to the definitive guide for **Antigravity CLI** (`agy`). Replacing the deprecated Gemini CLI, Antigravity CLI is Google's high-performance, terminal-first interface built in Go. It interfaces directly with the **Antigravity 2.0** agent harness, pairing Gemini models (like the Gemini 3.5 series) with advanced agentic loops (multi-step reasoning, tool execution, and concurrent background sub-agents).
-
----
-
-## 1. Antigravity cli Installation & Authentication:
+## 1. Antigravity cli Installation:
 
 mac - 
 
@@ -32,9 +28,9 @@ termux -
 
 
 
-### First Launch & Authentication
+### Launch & Authentication
 
-Launch the interface by typing `agy` in your terminal. Follow the interactive prompts to authenticate via Google OAuth using your Google Account or a Google Cloud Platform (GCP) project.
+Launch by `agy` in the terminal. Follow the interactive prompts to authenticate via Google OAuth using your Google Account or a Google Cloud Platform (GCP) project.
 
 ```bash
 # Verify installation
@@ -47,7 +43,7 @@ agy
 
 ---
 
-## 2. Basic Use & Most Frequently Used Commands
+## 2. Basic Usages:
 
 Antigravity CLI boots into an interactive Terminal User Interface (TUI). You can issue standard natural language requests or control the agent environment using `/` slash commands.
 
@@ -55,6 +51,7 @@ Antigravity CLI boots into an interactive Terminal User Interface (TUI). You can
 * `/status` - Displays details on the active workspace, active model, and session metrics.
 * `/config` or `/settings` - Accesses the interactive system configurations.
 * `Ctrl + K` - Automatically approves a staged tool execution or code modification.
+* `/exit` or `ctrl + d` or `/quit` - to end the agy
 
 ```bash
 # Ask a direct engineering question right from your prompt
@@ -66,8 +63,8 @@ Antigravity CLI boots into an interactive Terminal User Interface (TUI). You can
 ### Basic level 2 usages:
 - Ask about a certain file `/add file-or-directory-name` and then ask about it through `/mode plan`
 
-- check the plan result by ctrl+alt+click
-- accept or cancel `/cancel` the result
+- check the plan result by ctrl+alt+clicking to the link
+- accept (ctrl + k) or cancel `/cancel` the result
 - include some more notes (search Coding with ai browser conversation)
 
 ---
